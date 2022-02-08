@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #d89126;
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link, .active{
+    color: #e96711 !important;
+}
+.nav-link {
+    color: rgb(255 248 248 / 90%) !important;
+    font-weight: 700;
+}
+.navbar-bg-scroll{
+    background-color: #263E49 !important;
+}
+.nav-link:hover{
+    color: #e96711!important;
+}
+
+a.nav-link.tradition-link.nav-link-scrolled {
+    color: #e96711 !important;
+}
+header{
+    background: url('img/header-bg.jpg')  center center /cover;
+    padding: 100px 0 100px 0;
+}
+
+/* .navbar-light .navbar-nav .nav-link.active, .nav-link {
+    color: rgb(255 248 248 / 90%);
+} */
+.hero-section{
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: auto;
+    padding: 50px 30px ;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.hero-name{
+     font-family: 'Cookie', cursive;
+}
+.hero-des{
+    color: #e96711;
+    font-weight: 700;
+}
+.btn-hero{
+    margin: auto;
+    padding: 5px;
+    background-color: #fff;
+    text-transform: uppercase;
+    max-width: 110px;
+    transition: 0.3s;
+
+}
+.btn-hero:hover{
+    background-color: #e96711;
+}
+.btn-hero:hover .btn-hero-text{
+    color: #2A3B40;
+}
+
+#sample{
+    background-color: #2A3B40;
+    color: #fff;
+    padding: 30px;
+}
+.sample-image{
+    max-width:250px;
+}
+.about-item {
+    padding:50px 30px;
+
+}
+.circle-span{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #2A3B40;
+    margin-bottom:10px;
+}
+#food-menu{
+    background: url('img/food-menu-bg.jpg') fixed center center /cover;
+}
+.food-menu-wrapper {
+    padding: 13px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.6) ;
+}
+.food-menu-title{
+    font-family: 'Cookie', cursive;
+    color: #263E49;
+    font-size: 50px;
+    text-align: center;
+}
+.food-menu-subtitle{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #e96711;
+    text-align: center;
+}
+.food-menu-single-item{
+    padding: 0;
+}
+.food-menu-item-title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.food-menu-item-des{
+    font-size: 20px;
+}
+.food-menu-item-price{
+    font-size: 25px;
+    font-weight: 700;
+}
+.food-menu-item-image{
+    max-width: 100%;
+    margin-left: -20px;
+
+}
+.food-menu-single-item{
+    background-color: rgba(255, 255, 255, 0.6);
+    
+}
+.food-menu-item-image-right{
+    max-width: 100%;
+}
+/* tradition section css */
+
+
+#tradition{
+    background: rgba(0,0,0,0.6);
+    padding: 100px 0;
+    position: relative;
+   
+}
+#tradition::before {
+    content: "";
+    background: url('img/secton-3-bg.png') center center /cover ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.tradition-text{
+    position: relative;
+    margin: auto;
+    
+}
+.tradition-link{
+    text-decoration: none;
+    color: #2A3B40;
+    font-weight: 700;
+}
+.tradition-link:hover{
+    color: #e96711;
+}
+#newmenu{
+    background: url('img/secton-4.jpg') center center /cover ;
+}
+.newmenu-wrapper{
+    padding-top: 200px;
+}
+.newmenu-container{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.new-menu-icon{
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 65px;
+    text-align: center;
+    margin-right: 20px;
+}
+.new-menu-title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.new-food-price{
+    font-weight: 700;
+}
+.new-food-menu-title{
+    padding: 50px 0 0 0;
+}
+#booking{
+    background: url('img/secton-5.jpg')  no-repeat center  /cover;
+    padding: 700px 0 0 0;
+}
+.booking-container{
+    background-color: #2A3B40;
+}
+.booking-container .row{
+    padding: 20px 0;
+}
+.booking-form{
+    width: 80%;
+    margin: auto;
+}
+.booking-form-select {
+    background-color: #2a3b40;
+    border: 1px solid #fff;
+    height: 40px;
+    color: #fff;
+}
+.booking-form-select::after{
+    content: "";
+    
+}
+.label-booking-form{
+    color: #fff;
+}
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: rgb(255, 255, 255);  
+    font-weight: 800;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: rgb(255, 255, 255);  
+    font-weight: 800;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: rgb(255, 255, 255);  
+    font-weight: 800;
+ }
+ .booking-input {
+    padding: 10px;
+    font-size: 20px;
+    max-width: 105px;
+    margin: auto;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.booking-input:hover{
+    background-color: #e96711;
+}
+/* discover section css */
+
+#discover{
+    background: url('img/secton-6.jpg')no-repeat center  /cover ;
+    padding: 700px 0 0 0;
+}
+.discover-wrapper{
+    background-color: #d8d6d6;
+    width: 100%;
+    padding: 25px 0 100px 0;
+}
+.discover-btn {
+    padding: 10px;
+    text-transform: uppercase;
+    border-bottom: 6px solid #e96711;
+    width: 115px;
+    transition: .3s;
+}
+.discover-btn a{
+    text-decoration: none;
+    transition: .3s;
+}
+.discover-btn a:hover{
+    color: #fff;
+
+}
+.discover-btn:hover{
+    background-color: #263E49;
+}
+.card{
+    transition: .3s;
+}
+
+.card:hover{
+    margin-top: -20px;
+    box-shadow: 7px 10px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+/* footer css */
+.social-section{
+    background-color: #263E49;
+    color: #fff;
+    padding: 50px 0;
+}
+.social-section h1{
+    font-size: 60px;
+}
+
+
+.social-section p{
+    margin: auto;
+    max-width: 50%;
+    margin-bottom: 10px;
+}
+
+.footer-social-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.icon-design {
+    background-color: rgb(255, 255, 255);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-design i{
+    color: #263E49;
+    font-size: 20px;
+}
+.icon-design:hover {
+    background-color: #e96711;
+    cursor: pointer;
+}
+#footer{
+    background-color: #d8d6d6;
+}
+
+#footer p {
+    max-width: 300px;
+    text-align: justify;
+}
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-menu ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-menu h2{
+    padding: 20px 0;
+}
